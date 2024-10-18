@@ -3,7 +3,7 @@
 ## Project Overview
 This project involves developing a cryptocurrency pair trading strategy for finding anomalies of the prices between assets. The bot fetches historical data for USDT pairs, checks for cointegrated pairs, calculates hedge ratios, and generates trading signals based on the Z-score of the price ratio between cointegrated pairs.
 
-# Note: This project is still in the development phase.
+Note: This project is still in the development phase.
 
 ## Strategy Explanation
 Every movement of prices in time is a time series, and cryptocurrencies are no exception. Since all the crypto prices move together with Bitcoin and are identified with it, there is an opportunity to find cointegrated assets. The price relationship of two or more cointegrated series is linear.
